@@ -6,12 +6,14 @@ function Donate() {
   const navigate = useNavigate();
 
   const handleDonate = () => {
-    if (!amount) return alert("Please enter an amount");
+  if (!amount) return alert("Please enter an amount");
 
-    navigate("/certificate", {
-      state: { amount },
-    });
-  };
+  navigate("/certificate", {
+    state: { amount },
+  });
+};
+;
+
 
   return (
     <div style={styles.page}>

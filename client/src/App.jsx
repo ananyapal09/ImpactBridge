@@ -40,6 +40,9 @@ import NGOProfile from "./pages/NGOProfile";
 import Donate from "./pages/Donate";
 import Certificate from "./pages/Certificate";
 import Navbar from "./components/Navbar";
+import AIAssistant from "./pages/AIAssistant";
+import MyDonationTracking from "./pages/MyDonationTracking";
+
 
 function App() {
   return (
@@ -53,9 +56,14 @@ function App() {
         <Route path="/register" element={<Register />} />
         <Route path="/donate" element={<Donate />} />
         <Route path="/certificate" element={<Certificate />} />
+        <Route path="/ai" element={<AIAssistant />} />
+         <Route path="/track" element={<MyDonationTracking />} />
+
       </Routes>
     </BrowserRouter>
   );
 }
 
 export default App;
+
+

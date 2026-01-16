@@ -5,6 +5,8 @@ function Navbar() {
     <div style={{ padding: "20px", borderBottom: "1px solid #ddd" }}>
       <Link to="/" style={{ marginRight: "15px" }}>Home</Link>
       <Link to="/ngos">NGOs</Link>
+      <Link to="/ai">Ask AI</Link>
+
     </div>
   );
 }
